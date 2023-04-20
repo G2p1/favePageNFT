@@ -1,6 +1,6 @@
 # NFT web-site
 
-You can check site by [https://www.thesymbiotesnfts.com/](ling)
+You can check site by [link](https://www.thesymbiotesnfts.com/)
 
 ## Available Scripts
 
