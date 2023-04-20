@@ -1,0 +1,132 @@
+@font-face {
+    font-family: "NotsimplFont";
+    src: url(./notmyfontsimpl.ttf);
+  }
+.table table{
+    padding-top: 8vh;
+    position: relative;
+    width: 80%;
+    left: 10%;
+}
+.table th{
+    position: relative;
+    padding: 0.8vw 0.8vw 0vw 0.8vw;
+}
+.table{
+    align-items: center;
+    margin-top: 8vw;
+    color: rgb(129, 236, 252);
+}
+
+.table>table{
+    border: 0.4vw solid rgb(142, 72, 240);
+    display: block;
+    padding: 0;
+    margin: 1vw 5vw;
+    border-collapse: collapse;
+    position: relative;
+    width: 70vw;
+
+}
+
+.table th{
+    height: 30vw;
+    padding: 0;
+    margin: 0;
+}
+
+.thimagel{
+    position: absolute;
+    padding: 0;
+    
+    top: 0;
+    left:0;
+    width: 30vw;
+    height: 30vw;
+    border-right: 0.3vw solid rgb(142, 72, 240) ;
+}
+
+.thimager{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30vw;
+    height: 30vw;
+    border-left: 0.3vw solid rgb(142, 72, 240) ;
+}
+.thimage{
+    width: 31vw;
+}
+.thtext{
+    width: 40vw;
+}
+.thtext>div.thtext1{
+    font-size: 1.8vw;
+    position: absolute;
+    top:43%;
+    left:1%;
+    text-align: left;
+    width: 38vw;
+    
+    font-family:"NotsimplFont";
+}
+.thtext>div.thtext2{
+    font-size: 1.8vw;
+    position: absolute;
+    top:43%;
+    left:1%;
+    text-align: left;
+    width: 38vw;
+    
+    font-family:"NotsimplFont";
+}
+.thtext>div.thtext3{
+    font-size: 1.8vw;
+    position: absolute;
+    top:47%;
+    left:1%;
+    text-align: left;
+    width: 38vw;
+    
+    font-family:"NotsimplFont";
+}
+.thtexthead1{
+    color: rgb(142, 72, 240);
+    font-size: 3vw;
+    position: absolute;
+    top:28%;
+    left:2%;
+    text-align: left;
+    width: 38vw;
+}
+.thtexthead2{
+    
+    color: rgb(142, 72, 240);
+    font-size: 3vw;
+    position: absolute;
+    top:28%;
+    left:2%;
+    text-align: left;
+    width: 38vw;
+}
+.thtexthead3{
+    
+    color: rgb(142, 72, 240);
+    font-size: 3vw;
+    position: absolute;
+    top:29%;
+    left:2%;
+    text-align: left;
+    width: 38vw;
+}
+.allchapter{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    font-family:"NotsimplFont";
+    font-size: 2vw;
+    position: absolute;
+    bottom: 0.5vw;
+    right:0.5vw;
+    padding: 0.2em 0.2em 0.1em 0.2em;
+    border: 0.2vw solid ;
+}

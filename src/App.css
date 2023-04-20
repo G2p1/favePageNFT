@@ -1,0 +1,640 @@
+
+@font-face {
+  font-family: "MyFont";
+  src: url(./font.ttf);
+}
+@font-face {
+  font-family: "NotFont";
+  src: url(./notmyfont.ttf);
+  
+}
+@font-face {
+  font-family: "NotsimplFont";
+  src: url(./notmyfontsimpl.ttf);
+}
+
+    .App {
+      text-align: center;
+      
+      background-image: url(background.png);
+     
+      font-family: 'NotFont';
+
+     }
+    
+
+  
+    .nav{
+      
+      position: -webkit-sticky;
+      position: sticky;
+      top: 0;
+      height: 7vh;
+      background-image: url(./navback.png);
+      color: rgb(129, 236, 252);
+      font-weight: bold;
+      border-radius: 0px 0px 20px 20px;
+      z-index: 200;
+    
+    }
+    .logo{
+      position: absolute;
+      top: 0.8vh;
+      left: 5vw;
+      opacity: 1;
+      
+      width: 1.5vw;
+    }
+    .logo img{
+      width: 1.5vw;
+      float: right;
+    }
+    .mainref{
+      font-size: 1vw;
+      padding-top: 1.7vh;
+      width: 50vw;
+      top:0;
+      left: 30vw;
+      margin: auto;
+      display: inline-block;
+      position: absolute;
+      opacity: 1;
+    }
+    .map{
+      font-size: 1.4vw;
+      position: absolute;
+      
+      font-family: 'NotsimplFont';
+      left:0;
+      border-radius: 10px;
+    }
+    .rarity{
+      font-size: 1.4vw;
+      position: absolute;
+      
+      font-family: 'NotsimplFont';
+      left: 15vw;
+      border-radius: 10px;
+    }
+    .teamnav{
+      font-size: 1.4vw;
+      position: absolute;
+      
+      font-family: 'NotsimplFont';
+      left: 30vw;
+      border-radius: 10px;
+    
+    }
+    .faq{
+      
+      font-size: 1.4vw;
+      position: absolute;
+      
+      font-family: 'NotsimplFont';
+      border-radius: 10px;
+      right:15%;
+    }
+    
+    .rarity:hover{
+      background-color: gray;
+    }
+    
+    .map:hover{
+      background-color: gray;
+    }
+    .faq:hover{
+      background-color: gray;
+    }
+    .teamnav:hover{
+      background-color: gray;
+    }
+    
+    .connect{
+      width: 2vw;
+      position: absolute;
+      top: 1%;
+      right: 10vw;
+       opacity: 1;
+    }
+    .connect img{
+      position: absolute;
+      width: 6vh;
+      float: left;
+      margin-right: 2vw;
+    }
+    
+    .twit{
+      position: absolute;
+      margin-top: 20%;
+      margin-left: 5vw;
+    }
+    .headimageapp{
+      position: relative;
+      z-index: 100;
+      
+    }
+    .rsi{
+      position: absolute;
+      float: right;
+      width: 98.9vw;
+      bottom: -2.65%;
+      left:0;
+      z-index: 200;
+    }
+    a:active, 
+    a:hover,
+    a{
+      color: rgb(129, 236, 252);
+      text-decoration: none;
+    }
+
+    .fhead{
+      position: relative;
+      margin-top: 10vh;
+      margin-bottom: 10vh;
+    width: 20%;
+    left: 40%;
+    border: 0.8vw solid rgb(142, 72, 240);
+    color: rgb(129, 236, 252);
+    font-size: 9vw;
+    }
+
+footer{
+  color: rgb(129, 236, 252);
+  font-size: 2vw;
+  margin-top: 14vh; 
+  padding-top: 2.5vh;
+  padding-bottom: 2vh;
+  position: relative;
+  height: 5vh;
+  border-top: 0.1vw solid rgb(80, 80, 80);
+
+}
+.footerdiscord{
+font-size: 1vw;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+.footertwitter{
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+  
+  font-size: 1vw;
+}
+.footerdiscord{
+  position: absolute;
+  left:42.5vw
+}
+.footertwitter{
+  position: absolute;
+  left: 49.5vw;
+  top: 3.5vh;
+}
+.footerdiscord>span{
+  
+  position: absolute;
+  padding-top: 1.8vh;
+  float:left;
+}
+
+.footertwitter>span{
+  
+  position: absolute;
+  padding-top: 0.6vh;
+  float:left;
+}
+.footerdiscord>img{
+  width:2.3vw;
+}
+.footertwitter>img{
+  width:2vw;
+}
+.banerlore{
+  position: absolute;
+  top:54%;
+  left:40vw;
+  width: 8vw;
+  height: 8vw;
+}
+.banerteam{
+  position: absolute;
+  top:10%;
+  left:16vw;
+  width: 18vw;
+  height: 20vw;
+}
+.banerroadmap{
+  position: absolute;
+  top:6%;
+  left:40vw;
+  width: 18vw;
+  height: 22vw;
+  
+}
+.banersymbiots{
+  position: absolute;
+  top:14%;
+  left:65vw;
+  width: 24vw;
+  height: 16.5vw;
+  
+}
+    @media only screen and (max-width: 600px){
+
+      .App {
+        text-align: center;
+        
+        background-image: url(background.png);
+       
+        font-family: 'NotFont';
+  
+       }
+      
+  
+    
+      .nav{
+        
+        position: -webkit-sticky;
+        position: sticky;
+        top: 0;
+        height: 7vh;
+        background-image: url(./navback.png);
+        color: rgb(129, 236, 252);
+        font-weight: bold;
+        border-radius: 0px 0px 20px 20px;
+        z-index: 200;
+      
+      }
+      .logo{
+        position: absolute;
+        top: 25%;
+        left: 8vw;
+        opacity: 1;
+        
+        width: 1.5vw;
+      }
+      .logo img{
+        width: 3.5vw;
+        float: right;
+      }
+      .mainref{
+        font-size: 40vw;
+        padding-top: 1.7vh;
+        width: 50vw;
+        top:10%;
+        left: 20vw;
+        margin: auto;
+        display: inline-block;
+        position: absolute;
+        opacity: 1;
+      }
+      .map{
+        font-size: 3vw;
+        position: absolute;
+        
+        font-family: 'NotsimplFont';
+        left:0;
+        border-radius: 10px;
+      }
+      .rarity{
+        font-size: 3vw;
+        position: absolute;
+        
+        font-family: 'NotsimplFont';
+        left: 15vw;
+        border-radius: 10px;
+      }
+      .teamnav{
+        font-size: 3vw;
+        position: absolute;
+        
+        font-family: 'NotsimplFont';
+        left: 30vw;
+        border-radius: 10px;
+      
+      }
+      .faq{
+        
+        font-size: 3vw;
+        position: absolute;
+        
+        font-family: 'NotsimplFont';
+        border-radius: 10px;
+        right:15%;
+      }
+      
+      .rarity:hover{
+        background-color: gray;
+      }
+      
+      .map:hover{
+        background-color: gray;
+      }
+      .faq:hover{
+        background-color: gray;
+      }
+      .teamnav:hover{
+        background-color: gray;
+      }
+      
+      .connect{
+        width: 25vw;
+        position: absolute;
+        top: 20%;
+        right: 10vw;
+         opacity: 1;
+      }
+      .connect img{
+        position: absolute;
+        width: 3vh;
+        float: left;
+        margin-right: 2vw;
+      }
+      
+      .twit{
+        position: absolute;
+        margin-top: 0.5vh;
+        margin-left: 12vw;
+      }
+      .baner{
+        position: relative;
+        z-index: 100;
+        
+      }
+      .rsi{
+        position: absolute;
+        float: right;
+        width: 100vw;
+        bottom: -2.65%;
+        left:0;
+        z-index: 200;
+      }
+      a:active, 
+      a:hover,
+      a{
+        color: rgb(129, 236, 252);
+        text-decoration: none;
+      }
+  
+      .fhead{
+        position: relative;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+      width: 20%;
+      left: 40%;
+      border: 0.8vw solid rgb(142, 72, 240);
+      color: rgb(129, 236, 252);
+      font-size: 9vw;
+      }
+  
+  footer{
+    color: rgb(129, 236, 252);
+    font-size: 2vw;
+    margin-top: 14vh; 
+    padding-top: 2.5vh;
+    padding-bottom: 2vh;
+    position: relative;
+    height: 5vh;
+    border-top: 0.1vw solid rgb(80, 80, 80);
+  
+  }
+  .footerdiscord{
+  font-size: 1vw;
+  -webkit-filter:grayscale(100%);
+  filter: grayscale(100%);
+  }
+  .footertwitter{
+    -webkit-filter:grayscale(100%);
+    filter: grayscale(100%);
+    
+    font-size: 1vw;
+  }
+  .footerdiscord{
+    position: absolute;
+    left:41.5vw
+  }
+  .footertwitter{
+    position: absolute;
+    left: 52.5vw;
+    top: 3.3vh;
+  }
+  .footerdiscord>span{
+    
+    position: absolute;
+    padding-top: 1.5vh;
+    float:left;
+  }
+  
+  .footertwitter>span{
+    
+    position: absolute;
+    padding-top: 0.6vh;
+    float:left;
+  }
+  .footerdiscord>img{
+    width:6.9vw;
+  }
+  .footertwitter>img{
+    width:5.7vw;
+  }
+}
+/*1400*/
+@media only screen and (max-width: 1400px){
+
+  .App {
+    text-align: center;
+    
+    background-image: url(background.png);
+   
+    font-family: 'NotFont';
+
+   }
+  
+
+
+  .nav{
+    
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    height: 7vh;
+    background-image: url(./navback.png);
+    color: rgb(129, 236, 252);
+    font-weight: bold;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 200;
+  
+  }
+  .logo{
+    position: absolute;
+    top: 25%;
+    left: 8vw;
+    opacity: 1;
+    
+    width: 1.5vw;
+  }
+  .logo img{
+    width: 2.9vw;
+    float: right;
+  }
+  .mainref{
+    font-size: 40vw;
+    padding-top: 1.7vh;
+    width: 50vw;
+    top:10%;
+    left: 20vw;
+    margin: auto;
+    display: inline-block;
+    position: absolute;
+    opacity: 1;
+  }
+  .map{
+    font-size: 3vw;
+    position: absolute;
+    
+    font-family: 'NotsimplFont';
+    left:0;
+    border-radius: 10px;
+  }
+  .rarity{
+    font-size: 3vw;
+    position: absolute;
+    
+    font-family: 'NotsimplFont';
+    left: 15vw;
+    border-radius: 10px;
+  }
+  .teamnav{
+    font-size: 3vw;
+    position: absolute;
+    
+    font-family: 'NotsimplFont';
+    left: 30vw;
+    border-radius: 10px;
+  
+  }
+  .faq{
+    
+    font-size: 3vw;
+    position: absolute;
+    
+    font-family: 'NotsimplFont';
+    border-radius: 10px;
+    right:15%;
+  }
+  
+  .rarity:hover{
+    background-color: gray;
+  }
+  
+  .map:hover{
+    background-color: gray;
+  }
+  .faq:hover{
+    background-color: gray;
+  }
+  .teamnav:hover{
+    background-color: gray;
+  }
+  
+  .connect{
+    width: 25vw;
+    position: absolute;
+    top: 26%;
+    right: 10vw;
+     opacity: 1;
+  }
+  .connect img{
+    position: absolute;
+    width: 3vh;
+    float: left;
+    margin-right: 2vw;
+  }
+  
+  .twit{
+    position: absolute;
+    margin-top: 0.5vh;
+    margin-left: 7vw;
+  }
+  .baner{
+    position: relative;
+    z-index: 100;
+    
+  }
+  .rsi{
+    position: absolute;
+    float: right;
+    width: 100vw;
+    bottom: -2.65%;
+    left:0;
+    z-index: 200;
+  }
+  a:active, 
+  a:hover,
+  a{
+    color: rgb(129, 236, 252);
+    text-decoration: none;
+  }
+
+  .fhead{
+    position: relative;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  width: 20%;
+  left: 40%;
+  border: 0.8vw solid rgb(142, 72, 240);
+  color: rgb(129, 236, 252);
+  font-size: 9vw;
+  }
+
+footer{
+color: rgb(129, 236, 252);
+font-size: 2vw;
+margin-top: 14vh; 
+padding-top: 2.5vh;
+padding-bottom: 2vh;
+position: relative;
+height: 5vh;
+border-top: 0.1vw solid rgb(80, 80, 80);
+
+}
+.footerdiscord{
+font-size: 1vw;
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+}
+.footertwitter{
+-webkit-filter:grayscale(100%);
+filter: grayscale(100%);
+
+font-size: 1vw;
+}
+.footerdiscord{
+position: absolute;
+left:41.5vw
+}
+.footertwitter{
+position: absolute;
+left: 52.5vw;
+top: 3.3vh;
+}
+.footerdiscord>span{
+
+position: absolute;
+padding-top: 1.5vh;
+float:left;
+}
+
+.footertwitter>span{
+
+position: absolute;
+padding-top: 0.6vh;
+float:left;
+}
+.footerdiscord>img{
+width:4.7vw;
+}
+.footertwitter>img{
+width:3.7vw;
+}
+}

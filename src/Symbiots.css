@@ -1,0 +1,209 @@
+.symbiots{
+    width: 98.6vw;
+    height: 100vh;
+    color: rgb(129, 236, 252);
+    margin-top: 20vh;
+    padding-top: 1vh;
+    
+}
+.symbiots span{
+    font-size: 1.3vw;
+}
+.shead{
+    position: relative;
+    left:25%;
+    padding: 10px;
+    width: 50%;
+    font-size: 10vw;
+    border: 0.8vw solid rgb(142, 72, 240);
+    margin-bottom: 15vh;
+}
+
+.symbiots .container{
+    padding-left: 0.9vw;
+}
+
+.container img{
+    width: 17vw;
+    padding: 0.3vw 0.3vw 0vw 0.3vw;
+    border: 0.5vw solid rgb(142, 72, 240)
+    
+    
+}
+.t1{
+    position: relative;
+    left: 0;
+    top:25vh;
+    height: 200px;
+    display: inline;
+    margin: 0vw 1vw 0vw 0vw;   
+     
+}
+
+.t1>span{
+    font-size: 2vw;
+    position: absolute;
+    left:4.8vw;
+    top:3.5vh;
+    
+
+}
+.t2{
+    display: inline;
+    top:15vh;
+    
+    position: relative;
+    margin: 1vw 1vw 1vw 0vw;
+}
+
+.t2>span{
+    position: absolute;
+    left:5.4vw;
+    top:3.5vh;
+    font-size: 2vw;
+
+}
+.t3{
+    display: inline;
+    position: relative;
+    margin: 1vw 1vw 1vw 0vw;
+    top:5vh;
+}
+
+.t3>span{
+    position: absolute;
+    left:4.8vw;
+    top:3.5vh;
+    font-size: 2vw;
+
+}
+.t4{
+    display: inline;
+    position: relative;
+    margin: 1vw 1vw 1vw 0vw;
+    top:15vh;
+}
+
+
+.t4>span{
+    position: absolute;
+    left:4.8vw;
+    top:3.5vh;
+    font-size: 2vw;
+
+}
+.t5{
+    display: inline;
+    position: relative;
+    
+    top:25vh;
+    margin: 1vw 1vw 1vw 0vw;
+}
+
+
+.t5>span{
+    position: absolute;
+    left:7vw;
+    top:3.5vh;
+    font-size: 2vw;
+
+}
+@media only screen and (max-width: 600px){
+    .symbiots{
+        width: 98.6vw;
+        height: 280vh;
+        color: rgb(129, 236, 252);
+        margin-top: 10vh;
+        padding-top: 1vh;
+        
+    }
+    .symbiots span{
+        font-size: 8vw;
+    }
+    .shead{
+        position: relative;
+        left:25%;
+        padding: 10px;
+        width: 50%;
+        font-size: 10vw;
+        border: 0.8vw solid rgb(142, 72, 240);
+        margin-bottom: 7vh;
+    }
+    
+    .symbiots .container{
+        padding: 0;
+        margin: 0;
+        padding-left: 2.8vw;
+    }
+    
+.container img{
+    width: 80vw;
+    border: 0.5vw solid rgb(142, 72, 240)    
+}
+
+    .t1{
+        position: relative;
+        left: 0;
+        top:0;
+        display: inline; 
+         
+    }
+    
+    .t1>span{
+        position: absolute;
+        left:27vw;
+        top:3.5vh;
+        
+    
+    }
+    .t2{
+        display: inline;
+        top:10vh;
+        
+        position: relative;
+    }
+    
+    .t2>span{
+        position: absolute;
+        left:27vw;
+        top:3.5vh;
+    
+    }
+    .t3{
+        display: inline;
+        position: relative;
+        top:20vh;
+    }
+    
+    .t3>span{
+        position: absolute;
+        left:26vw;
+        top:3.5vh;
+    
+    }
+    .t4{
+        display: inline;
+        position: relative;
+        top:30vh;
+    }
+    
+    .t4>span{
+        position: absolute;
+        left:25vw;
+        top:3.5vh;
+    
+    }
+    .t5{
+        display: inline;
+        position: relative;
+        
+        top:40vh;
+    }
+    
+    .t5>span{
+        position: absolute;
+        left:32vw;
+        top:3.5vh;
+    
+    }
+}

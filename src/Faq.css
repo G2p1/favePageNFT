@@ -1,0 +1,150 @@
+@font-face {
+    font-family: "MyFont";
+    src: url(./font.ttf);
+  }
+  @font-face {
+    font-family: "NotFont";
+    src: url(./notmyfont.ttf);
+    
+  }
+@font-face {
+    font-family: "NotsimplFont";
+    src: url(./notmyfontsimpl.ttf);
+  }
+
+.ffaq{
+    position: relative;
+    
+    font-family: 'NotsimplFont';
+    align-items: center;
+    color: rgb(129, 236, 252);
+    padding-bottom: 1vh;
+    font-size: 0.9vw;
+ 
+}
+
+.ffaq .container{
+    width: 60vw;
+    margin: auto;
+    left: 0;
+    text-align: left;
+}
+.accordion{
+ 
+
+}
+.accordionHeading .container{
+    
+    font-family: 'NotFont';
+    display: flex;
+    align-items: center;
+ 
+}
+.accordionHeading{
+    font-size: 1.2vw;
+    width: 60vw;
+    margin: auto;
+    cursor:pointer;
+    border: 0.4vw solid rgb(142, 72, 240);
+}
+.accordionHeading p{
+padding-left: 15px;
+
+ 
+}
+
+.accordionContent{
+
+    font-family: 'NotsimplFont';
+}
+.accordionContent .container{
+    
+    font-family: 'NotsimplFont';
+    height: 0;
+    opacity: 0;
+    display: flex;
+    overflow: hidden;
+    margin-left: 2000px;
+ 
+
+}
+.accordionContent.show .container{
+    
+    font-family: 'NotsimplFont';
+     position: relative;
+    opacity: 1;
+    
+}
+.tttt{
+
+    font-size: 1.3vw;
+}
+@media only screen and (max-width: 600px){
+    .ffaq{
+        position: relative;
+        
+        font-family: 'NotsimplFont';
+        align-items: center;
+        color: rgb(129, 236, 252);
+        padding-bottom: 1vh;
+        font-size: 0.9vw;
+     
+    }
+    
+    .ffaq .container{
+        width: 80vw;
+        margin: auto;
+        left: 0;
+        text-align: left;
+    }
+    .accordion{
+     
+    
+    }
+    .accordionHeading .container{
+        
+        font-family: 'NotFont';
+        display: flex;
+        align-items: center;
+     
+    }
+    .accordionHeading{
+        font-size: 3vw;
+        width: 80vw;
+        margin: auto;
+        cursor:pointer;
+        border: 0.4vw solid rgb(142, 72, 240);
+    }
+    .accordionHeading p{
+    padding-left: 15px;
+    
+     
+    }
+    
+    .accordionContent{
+    
+        font-family: 'NotsimplFont';
+    }
+    .accordionContent .container{
+        
+        font-family: 'NotsimplFont';
+        height: 0;
+        opacity: 0;
+        display: flex;
+        overflow: hidden;
+        margin-left: 2000px;
+     
+    
+    }
+    .accordionContent.show .container{
+        
+        font-family: 'NotsimplFont';
+         position: relative;
+        opacity: 1;
+        
+    }
+    .tttt{
+    
+        font-size: 3vw;
+    }
+}

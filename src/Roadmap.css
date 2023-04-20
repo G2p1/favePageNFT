@@ -1,0 +1,42 @@
+@font-face {
+    font-family: "NotFont";
+    src: url(./notmyfont.ttf);
+  }
+
+ .RoadMap {
+    position: relative;
+    font-family: 'NotFont';
+    font-size: 10vw;
+    padding-top: 10vh;
+    align-items: center;
+    color: rgb(129, 236, 252);
+    
+    
+ }
+
+.rhead{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    padding: 1vh 0px 1vh 0px;
+    border: 0.8vw solid rgb(142, 72, 240);
+    
+}
+img.rimage{
+    position: relative;
+    width: 82%;
+    margin-top: 8vh;
+    border: 0.4vw solid rgb(142, 72, 240);
+}
+.roadspan{
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%);
+    font-size: 2vw;
+    position: absolute;
+    right:10%;
+    bottom:3%;
+    border: 0.3vw solid;
+    padding-left: 0.5vw;
+    
+    padding-right: 0.5vw;
+}
